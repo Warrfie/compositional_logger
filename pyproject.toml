@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+readme = "README.md"
+name = "compositional_logger"
+description = "Package for data logging in compositional style"
+keywords = [
+    "QA",
+    "SET",
+    "logging",
+    "testing",
+    "autotesting"
+]
+urls = {Homepage = "https://github.com/Warrfie/compositional_logger"}
+authors = [{name = "MaximKuklikov(Warrfie)", email = "warrfie@gmail.com"}]
+requires-python = ">=3.10"
+version="0.1.0"
